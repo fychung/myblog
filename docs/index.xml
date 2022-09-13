@@ -1,50 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Fengye&#39;s Site</title>
-        <link>http://example.org/</link>
-        <description>Recent content on Fengye&#39;s Site</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Tue, 13 Sep 2022 23:34:45 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>second page</title>
-        <link>http://example.org/posts/2/</link>
-        <pubDate>Tue, 13 Sep 2022 23:34:45 +0800</pubDate>
-        
-        <guid>http://example.org/posts/2/</guid>
-        <description>&lt;h1 id=&#34;我是第二个页面&#34;&gt;我是第二个页面&lt;/h1&gt;
-&lt;p&gt;啦啦啦。。。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Hugo command</title>
-        <link>http://example.org/posts/my-first-post/</link>
-        <pubDate>Tue, 13 Sep 2022 22:40:24 +0800</pubDate>
-        
-        <guid>http://example.org/posts/my-first-post/</guid>
-        <description>&lt;h1 id=&#34;1hugo-command&#34;&gt;1、Hugo command:&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;hugo new site XXX. 生成站点&lt;/li&gt;
-&lt;li&gt;cd XXX&lt;/li&gt;
-&lt;li&gt;git init&lt;/li&gt;
-&lt;li&gt;git submodule add &lt;a class=&#34;link&#34; href=&#34;https://github.com/.../theme_XXXX.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/.../theme_XXXX.git&lt;/a&gt; themes/XXXX&lt;/li&gt;
-&lt;li&gt;添加XXXX到config.toml&lt;/li&gt;
-&lt;li&gt;hugo new posts/my-first-post.md 生成md页面&lt;/li&gt;
-&lt;li&gt;编辑内容&lt;/li&gt;
-&lt;li&gt;hugo server -D 启动，查看&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;2在线托管&#34;&gt;2、在线托管&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&amp;ndash;destination  指定生成静态文件目录，例如 ./docs&lt;/li&gt;
-&lt;li&gt;&amp;ndash;buildDrafts  表示posts中被标记为drafts的post，也被包括进来生成静态文件&lt;/li&gt;
-&lt;li&gt;&amp;ndash;cleanDestinationDir 静态目录中没有的文件，也不会出现在destination目录中
-hugo &amp;ndash;destination ./docs &amp;ndash;buildDrafts &amp;ndash;cleanDestinationDir&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Fengye&#39;s Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Fengye&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Sep 2022 23:34:45 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>second page</title>
+      <link>http://example.org/posts/2/</link>
+      <pubDate>Tue, 13 Sep 2022 23:34:45 +0800</pubDate>
+      
+      <guid>http://example.org/posts/2/</guid>
+      <description>我是第二个页面 啦啦啦。。。</description>
+    </item>
+    
+    <item>
+      <title>Hugo command</title>
+      <link>http://example.org/posts/my-first-post/</link>
+      <pubDate>Tue, 13 Sep 2022 22:40:24 +0800</pubDate>
+      
+      <guid>http://example.org/posts/my-first-post/</guid>
+      <description>1、Hugo command: hugo new site XXX. 生成站点 cd XXX git init git submodule add https://github.com/.../theme_XXXX.git themes/XXXX 添加XXXX到config.toml hugo new posts/my-first-post.md 生成md页面 编辑内容 hugo server -D 启动，查看 2、在线托管 --destination 指定生成静态文件目录，例如 ./docs --buildDrafts 表示posts中被标记为drafts的post，也被包括进来生成静态文件 --cleanDestinationDir 静态目录中没有的文件，也不会出现在destination目录中 hugo --destination ./docs --buildDrafts --cleanDestinationDir </description>
+    </item>
+    
+  </channel>
 </rss>
