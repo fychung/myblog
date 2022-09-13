@@ -42,6 +42,7 @@
 hugo &amp;ndash;destination ./docs &amp;ndash;buildDrafts &amp;ndash;cleanDestinationDir&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+&lt;hr&gt;
 </description>
         </item>
         
